@@ -1,0 +1,21 @@
+{
+  "name": "webDriverIOudemy",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^8.24.16",
+    "@wdio/local-runner": "^8.24.12",
+    "@wdio/mocha-framework": "^8.24.12",
+    "@wdio/spec-reporter": "^8.24.12",
+    "csv-parse": "^5.5.3",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "chromedriver": "^119.0.1",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
